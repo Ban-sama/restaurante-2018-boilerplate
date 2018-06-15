@@ -1,9 +1,11 @@
 #home-section {
-    height:100vh;
+    height:40vh;
+    padding-top: 320px;
     background: url('../img/hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* this is the change */
 }
 
 #home-section h1, #home-section p {
@@ -11,5 +13,17 @@
     margin-bottom:20px;
 }
 
+.navbar-brand h1 {
+  font-size: 24px;
+  margin:0;
+}
+
 @media only screen and (min-width : 992px) {
+  #home-section {
+    min-height:500px;
+  }
+}
+
+#about-section {
+  padding-top: 20px;
 }
